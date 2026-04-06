@@ -9,7 +9,7 @@ Desktop CRUD application for employee data management using **Java Swing** (GUI)
 ```
 karyawan-hibernate/
 ├── pom.xml                              ← Maven build + dependencies
-├── karyawan_db.sql                      ← SQL setup + dummy data
+├── karyawan_db.sql                      ← SQL setup + dummy data (database can be change)
 ├── README.md
 └── src/main/
     ├── java/karyawanapp/
