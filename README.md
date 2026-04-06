@@ -9,7 +9,7 @@ Desktop CRUD application for employee data management using **Java Swing** (GUI)
 ```
 karyawan-hibernate/
 ├── pom.xml                              ← Maven build + dependencies
-├── karyawan_db.sql                      ← SQL setup + dummy data (database can be change)
+├── javaconnection.sql                   ← SQL setup + dummy data (database can be change)
 ├── README.md
 └── src/main/
     ├── java/karyawanapp/
@@ -42,7 +42,7 @@ EmployeeForm (GUI)
 Open XAMPP Control Panel → Start **MySQL**
 
 ### 2. Run SQL file
-Open **phpMyAdmin** (`localhost/phpmyadmin`) → run `karyawan_db.sql`
+Open **phpMyAdmin** (`localhost/phpmyadmin`) → run `javaconnection.sql`
 
 ### 3. Run the app
 ```bash
